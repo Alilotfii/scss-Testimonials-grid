@@ -21,7 +21,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
 }
-.container .cards .info {
+.container .cards .card-header {
   display: flex;
   align-items: center;
   padding-bottom: 20px;
@@ -36,20 +36,20 @@ body {
 .container .cards .card.bg-dark .text {
   color: #666;
 }
-.container .cards .card .card-content .text-info {
+.container .cards .card .card-info .text-qoute {
   padding-bottom: 15px;
   font-size: 18px;
 }
-.container .cards .card .card-content .text-info.text-purple {
+.container .cards .card .card-info .text-qoute.text-purple {
   color: #ae95d5;
 }
-.container .cards .card .card-content .text-info .text {
+.container .cards .card .card-info .text-qoute .text {
   color: #858990;
 }
-.container .cards .card .info .card-text {
+.container .cards .card .card-header .card-text {
   padding-left: 10px;
 }
-.container .cards .card .info img {
+.container .cards .card .card-header .card-image img {
   height: 35px;
   border-radius: 50%;
   border: 2px solid #fff;
